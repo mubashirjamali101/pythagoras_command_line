@@ -6,7 +6,6 @@ let n1 = prompt("a="), n2 = prompt("b="), n3 = prompt("c="); // taking initial u
 
 function pyth(a = 1, b = 1, c = 1) {//the main function which uses  pythagores theorem to find the one of the arguments of the a, b & c
     if(a == "?" && Number(b) && b != "?" && Number(c) && c != "?"){
-        log(`${a} ${b} ${c}`)
         b = Number(b)
         c = Number(c)
         a = Math.sqrt((c*c)-(b*b))
